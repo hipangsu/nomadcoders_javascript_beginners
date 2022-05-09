@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+::after {content:''};
+
+
+.a {
+  position: relative;
+  border: 1px solid #000;
+}
+
+a::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color:brown;
+}
